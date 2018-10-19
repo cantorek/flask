@@ -6,8 +6,8 @@ import os
 @app.route("/")
 def hello():
     while(1):
-        if ! os.fork():
-            return "Hello World v6!"
+        if not os.fork():
+            return "Hello World v7!"
  
       
 if __name__ == "__main__":
